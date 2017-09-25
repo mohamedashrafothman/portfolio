@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background-color: #FFFFFF;
+  color: #2A363B;
+  font-size: 10px;
+  font-weight: 400; }
+
+.wrapper {
+  width: 90%;
+  max-width: 1050px;
+  margin: 0 auto; }
+  .wrapper .intro {
+    padding: 4rem 0 .5rem; }
+    .wrapper .intro__paragraph {
+      font-family: "Nunito", sans-serif;
+      font-size: 3rem;
+      padding-bottom: 2rem; }
+  .wrapper .projects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .wrapper .projects .project {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-align: center;
+      -webkit-box-flex: 1;
+      -ms-flex: 1 1 28%;
+      flex: 1 1 28%;
+      padding: 2.5rem 1rem;
+      margin: 1.2rem;
+      min-width: 300px;
+      font-family: "Nunito", sans-serif;
+      color: #2A363B;
+      border-radius: .5rem;
+      cursor: pointer;
+      -webkit-transition: -webkit-transform .5s;
+      transition: -webkit-transform .5s;
+      transition: transform .5s;
+      transition: transform .5s, -webkit-transform .5s; }
+      .wrapper .projects .project:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1); }
+      .wrapper .projects .project p {
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: #FFFFFF;
+        margin-top: 1rem;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden; }
+      .wrapper .projects .project a {
+        text-decoration: none;
+        color: white;
+        display: block; }
+        .wrapper .projects .project a svg {
+          width: 3rem;
+          fill: white;
+          margin-bottom: 2em; }
+    .wrapper .projects .node {
+      background-color: #339933; }
+    .wrapper .projects .html {
+      background-color: #f16529; }
+    .wrapper .projects .jquery {
+      background-color: #0868ab; }
+      .wrapper .projects .jquery svg g {
+        fill: #FFFFFF; }
+        .wrapper .projects .jquery svg g path {
+          fill: #FFFFFF; }
+    .wrapper .projects .github {
+      background-color: #181717; }
+    .wrapper .projects .linked-in {
+      background-color: #0077B5; }
+    .wrapper .projects .codepen {
+      background-color: black; }
+  .wrapper .footer {
+    padding: 3rem 0;
+    font-family: "Nunito", sans-serif; }
+    .wrapper .footer p {
+      font-size: 1.25rem;
+      color: #9e9d9d; }
+      .wrapper .footer p a {
+        color: #2A363B; }
+    .wrapper .footer .love {
+      color: red;
+      font-size: 1.5rem; }
+
+/* Extra Small Devices, Phones */
+@media all and (max-width: 600px) {
+  .intro {
+    padding: 3rem 0 .5rem; }
+    .intro__paragraph {
+      font-size: 2rem !important; }
+  .projects .project {
+    padding: 2.5rem 3rem !important;
+    -webkit-box-flex: 1 !important;
+    -ms-flex: 1 1 100% !important;
+    flex: 1 1 100% !important; } }
