@@ -19,7 +19,7 @@ body {
     padding: 4rem 0 .5rem; }
     .wrapper .intro__paragraph {
       font-family: "Nunito", sans-serif;
-      font-size: 3rem;
+      font-size: 2.5rem;
       padding-bottom: 2rem; }
   .wrapper .projects {
     display: -webkit-box;
@@ -94,13 +94,27 @@ body {
     padding: 3rem 0;
     font-family: "Nunito", sans-serif; }
     .wrapper .footer p {
-      font-size: 1.25rem;
+      font-size: 1rem;
       color: #9e9d9d; }
       .wrapper .footer p a {
         color: #2A363B; }
-    .wrapper .footer .love {
-      color: red;
-      font-size: 1.5rem; }
+    .wrapper .footer .love img {
+      max-width: 1rem;
+      max-height: 1rem;
+      -webkit-transform: scale(1, 1);
+      transform: scale(1, 1);
+      -webkit-animation: beat .5s infinite alternate;
+      animation: beat .5s infinite alternate; }
+
+@-webkit-keyframes beat {
+  to {
+    -webkit-transform: scale(1.4, 1.4);
+    transform: scale(1.4, 1.4); } }
+
+@keyframes beat {
+  to {
+    -webkit-transform: scale(1.4, 1.4);
+    transform: scale(1.4, 1.4); } }
 
 /* Extra Small Devices, Phones */
 @media all and (max-width: 600px) {
