@@ -5,6 +5,9 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+html {
+  overflow-x: hidden; }
+
 body {
   background-color: #FFFFFF;
   color: #2A363B;
@@ -90,6 +93,8 @@ body {
       background-color: #0077B5; }
     .wrapper .projects .codepen {
       background-color: black; }
+    .wrapper .projects .medium {
+      background-color: #00ab6b; }
   .wrapper .footer {
     padding: 3rem 0;
     font-family: "Nunito", sans-serif; }
@@ -119,14 +124,19 @@ body {
 /* Extra Small Devices, Phones */
 @media all and (max-width: 600px) {
   iframe {
-    max-width: 300px !important;
+    max-width: 250px !important;
     clear: right; }
+  .wrapper {
+    width: 100%;
+    padding: 0 1.5rem 0 0.6rem !important; }
   .intro {
     padding: 3rem 0 .5rem; }
     .intro__paragraph {
       font-size: 2rem !important; }
   .projects .project {
-    padding: 2.5rem 3rem !important;
+    min-width: 250px !important;
+    margin: 1.2rem auto !important;
+    padding: 2.5rem 1rem !important;
     -webkit-box-flex: 1 !important;
     -ms-flex: 1 1 100% !important;
     flex: 1 1 100% !important; }
