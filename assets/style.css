@@ -59,13 +59,6 @@ body {
       .wrapper .projects .project:hover {
         -webkit-transform: scale(1.1);
         transform: scale(1.1); }
-      .wrapper .projects .project p {
-        font-size: 1.1rem;
-        font-weight: 400;
-        color: #FFFFFF;
-        margin-top: 1rem;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden; }
       .wrapper .projects .project a {
         text-decoration: none;
         color: white;
@@ -74,6 +67,13 @@ body {
           width: 3rem;
           fill: white;
           margin-bottom: 2em; }
+        .wrapper .projects .project a p {
+          font-size: 1.1rem;
+          font-weight: 400;
+          color: #FFFFFF;
+          margin-top: 1rem;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden; }
     .wrapper .projects .node {
       background-color: #339933; }
     .wrapper .projects .html {
@@ -118,6 +118,9 @@ body {
 
 /* Extra Small Devices, Phones */
 @media all and (max-width: 600px) {
+  iframe {
+    max-width: 300px !important;
+    clear: right; }
   .intro {
     padding: 3rem 0 .5rem; }
     .intro__paragraph {
@@ -126,4 +129,6 @@ body {
     padding: 2.5rem 3rem !important;
     -webkit-box-flex: 1 !important;
     -ms-flex: 1 1 100% !important;
-    flex: 1 1 100% !important; } }
+    flex: 1 1 100% !important; }
+  .footer {
+    text-align: center; } }
