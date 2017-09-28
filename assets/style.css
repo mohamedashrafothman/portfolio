@@ -24,6 +24,9 @@ body {
       font-family: "Nunito", sans-serif;
       font-size: 2.5rem;
       padding-bottom: 2rem; }
+    .wrapper .intro__fb iframe {
+      height: 45px !important;
+      margin: 0 1rem; }
   .wrapper .projects {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -110,6 +113,9 @@ body {
       transform: scale(1, 1);
       -webkit-animation: beat .5s infinite alternate;
       animation: beat .5s infinite alternate; }
+    .wrapper .footer iframe {
+      position: absolute;
+      margin: 0 1rem !important; }
 
 @-webkit-keyframes beat {
   to {
@@ -125,7 +131,8 @@ body {
 @media all and (max-width: 600px) {
   iframe {
     max-width: 250px !important;
-    clear: right; }
+    clear: right;
+    height: 70px !important; }
   .wrapper {
     width: 100%;
     padding: 0 0.6rem !important; }
@@ -141,7 +148,10 @@ body {
     -ms-flex: 1 1 100% !important;
     flex: 1 1 100% !important; }
   .footer {
-    text-align: center; } }
+    text-align: center; }
+    .footer iframe {
+      left: 33% !important;
+      padding-top: 29px !important; } }
 
 /**
  * ----------------------------------------
