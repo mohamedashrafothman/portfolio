@@ -72,7 +72,8 @@ body {
         .wrapper .projects .project a svg {
           width: 3rem;
           fill: white;
-          margin-bottom: 2em; }
+          margin-bottom: 2em;
+          max-height: 5rem; }
         .wrapper .projects .project a p {
           font-size: 1.1rem;
           font-weight: 400;
@@ -98,6 +99,8 @@ body {
       background-color: black; }
     .wrapper .projects .medium {
       background-color: #00ab6b; }
+    .wrapper .projects .cv {
+      background-color: #8c60ad; }
   .wrapper .footer {
     padding: 3rem 0;
     font-family: "Nunito", sans-serif; }
