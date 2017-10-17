@@ -101,6 +101,10 @@ body {
       background-color: #00ab6b; }
     .wrapper .projects .cv {
       background-color: #8c60ad; }
+    .wrapper .projects .freecodecamp {
+      background-color: #006400; }
+      .wrapper .projects .freecodecamp svg path {
+        fill: #FFFFFF !important; }
   .wrapper .footer {
     padding: 3rem 0;
     font-family: "Nunito", sans-serif; }
